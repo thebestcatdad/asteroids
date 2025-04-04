@@ -14,6 +14,7 @@ def main():
 
     while True:
         screen.fill("black")
+        player_instance.update(dt)
         player_instance.draw(screen)
         pygame.display.flip()        
 
